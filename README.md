@@ -13,3 +13,7 @@ npm install
 
 npm start
 
+to see app, got to directory public/index.html
+
+reload browser to see changes
+
