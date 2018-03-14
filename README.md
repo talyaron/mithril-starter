@@ -1,4 +1,5 @@
-mithril.js-starter:
+# mithril.js-starter
+Mithril.js  with Babel and JSX
 
 To use follow these steps
 
