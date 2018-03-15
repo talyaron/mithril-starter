@@ -1,10 +1,12 @@
 const m = require('mithril');
 
-var Message = {
+
+var More = {
     view: function (vnode) {
         return (
-            <div>
-                <h3>{vnode.attrs.message}</h3>
+            <div >
+                <h3>Hi {vnode.attrs.message}</h3>
+                <h2>Shlomi {vnode.attrs.shlomi}</h2>
             </div>
         )
     }
@@ -15,7 +17,8 @@ var App = {
         return (
             <main>
                 <h1>Hello world</h1>
-                <Message message='good point!' />
+                <br />
+                <More message='good point!' shlomi='10' />
             </main>
         )
     }
