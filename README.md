@@ -1,5 +1,5 @@
 # mithril.js-starter
-Mithril.js  with Babel and JSX
+Mithril.js  with Babel and JSX, CSS, Mateialize-css
 
 To use follow these steps
 
