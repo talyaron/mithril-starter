@@ -15,7 +15,17 @@ npm install
 npm start
 ```
 
-to see app, got to directory public/index.html
+To see app, got to directory public/index.html
 
 reload browser to see changes
+
+
+To use materialize-css require it in the file:
+```
+require('materialize-css/dist/css/materialize.css');
+```
+To use local css require it in the file (the css file should be in the same directory):
+```
+require('./style.css);
+```
 
